@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registarationform</title>
+</head>
+<body>
+    <header>
+        <h1> Registration Form</h1>
+    </header>
+    <main>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            
+        <table border="2px">
+            <input type="hidden" name="access_key" value="7cf6ee56-886d-4a82-b397-f229bbb289be">
+            <tr>
+                <th>
+                    Enter Your First Name
+                </th>
+                <td> <input type="text" placeholder="enter your name"></td>
+            </tr>
+            <tr>
+                <th>
+                    Enter Your Last Name
+                </th>
+                <td> <input type="text" ></td>
+            </tr>
+            <tr>
+                <th>
+                    Enter your password
+                </th>
+                <td> <input type="password" ></td>
+            </tr>
+            <tr>
+                <th>
+                    ReEnter your password
+                </th>
+                <td> <input type="password" ></td>
+            </tr>
+            <tr>
+                <th>
+                   Enter your email
+                </th>
+                <td> <input type="email" ></td>
+            </tr>
+            <tr>
+                <th>
+                    Enter your mobile
+                </th>
+                <td> <input type="number" ></td>
+            </tr>
+            <tr>
+                <th>
+                    Enter your address 
+                </th>
+                <td> <textarea ></textarea></td>
+            </tr>
+            <tr>
+                <th>
+                    Select your Gender 
+                </th>
+                <td> <label for="male">male</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="female">female</label>
+                <input type="radio" id="female" name="gender" value="female">
+            </td>
+            </tr>
+            <tr>
+                <th>
+                    Select your hobbies 
+                </th>
+                <td> <label for="hobby1">hobby 1</label>
+                    <input type="checkbox" id="hobby1" name="hobby" value="hobby1">
+                    <label for="hobby2">hobby 2</label>
+                    <input type="checkbox" id="hobby2" name="hobby" value="hobby2">
+                    <label for="hobby3">hobby 3</label>
+                    <input type="checkbox" id="hobby3" name="hobby" value="hobby3">
+            </td>
+            </tr>
+            <tr>
+                <th>
+                    Select your DOB
+                </th>
+                <td>
+                    <input type="date" id="date" name="date" value="date" placeholder="dd-mm-yyyy">
+
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Select your Country
+                </th>
+                <td>
+                    <select name="cars" id="cars" >
+                        <option value="India" selected>India</option>
+                        <option value="Australia">Australia</option>
+                        <option value="USA">USA</option>
+                        <option value="Germany">Germany</option>
+
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Upload your pic
+                </th>
+                <td>
+                    <input type="file" id="file" placeholder="Choose file">
+                   
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" placeholder="Save my Data">
+                    <button>Reset Data</button>
+                </td>
+            </tr>
+        </table>
+        </form>
+    </main>
+</body>
+</html>
